@@ -1,0 +1,125 @@
+/* General style*/
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+.main { width: 100% }
+
+section {
+    border-width: 1%;
+    border-color: black;
+    border-style: solid;
+    margin: 1%;   
+}
+
+
+
+.title{
+    text-align: center;
+    width: 40%;
+    float: right;
+    border-width: 1%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-style: solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -0%;
+    margin-right: -0%;
+}
+
+#title1 {
+    background-color: blueviolet;
+}
+
+#title2 {
+    background-color: brown;
+}
+
+#title3 {
+    background-color: coral;
+}
+
+#text1, #text2, #text3{
+ clear: both;
+ 
+ padding: 10px;
+}
+
+
+/* Mobile*/
+@media (max-width:767px) {
+    #sec1 {
+        width: 100%;
+        background-color: aquamarine;
+
+        
+    }
+
+
+    #sec2 {
+        width: 100%;
+        background-color: beige;
+    
+    }
+
+    #sec3 {
+        width: 100%;
+        background-color: lightpink;
+    
+        
+    }
+}
+
+/* Table*/
+@media (min-width:768px) and (max-width:991px) {
+    #sec1 {
+        width: 48%;
+        background-color: aquamarine;
+        float: left;
+    }
+    #sec2 {
+        width: 48%;
+        background-color: beige;
+        float: right;
+        
+    }
+
+    #sec3 {
+        width: 98%;
+        background-color: lightpink;
+        float: left;
+        
+        
+        
+    }
+}
+
+/* Desktop*/
+@media (min-width:992px) {
+
+    #sec1 {
+        width: 31.33%;
+        background-color: aquamarine;
+        float: left;
+    }
+
+
+    #sec2 {
+        width: 31.33%;
+        background-color: beige;
+        float: right;
+    }
+
+    #sec3 {
+        width: 31.33%;
+        background-color: lightpink;
+        float: right;
+    }
+
+}
